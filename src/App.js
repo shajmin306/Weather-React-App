@@ -1,15 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello!</p>
-      </header>
+      <h1>Weather App</h1>
     </div>
   );
 }
-
-export default App;
